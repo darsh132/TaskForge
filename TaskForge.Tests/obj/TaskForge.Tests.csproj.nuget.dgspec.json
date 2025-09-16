@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Tests\\TaskForge.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Application\\TaskForge.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Application\\TaskForge.Application.csproj",
+        "projectName": "TaskForge.Application",
+        "projectPath": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Application\\TaskForge.Application.csproj",
+        "packagesPath": "C:\\Users\\Darshan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darshan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Core\\TaskForge.Core.csproj": {
+                "projectPath": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Core\\TaskForge.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Core\\TaskForge.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Core\\TaskForge.Core.csproj",
+        "projectName": "TaskForge.Core",
+        "projectPath": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Core\\TaskForge.Core.csproj",
+        "packagesPath": "C:\\Users\\Darshan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darshan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Tests\\TaskForge.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Tests\\TaskForge.Tests.csproj",
+        "projectName": "TaskForge.Tests",
+        "projectPath": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Tests\\TaskForge.Tests.csproj",
+        "packagesPath": "C:\\Users\\Darshan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darshan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Application\\TaskForge.Application.csproj": {
+                "projectPath": "C:\\Users\\Darshan\\Portals\\Proj1\\TaskForge\\TaskForge.Application\\TaskForge.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
